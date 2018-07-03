@@ -1,37 +1,126 @@
-languageCode = "en-us"
-title = "Aerial"
-baseurl = "http://techaaservice.com/"
-theme = "aerial"
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.techaaservice.com/"
+languageCode = "en-AU"
+title = "TechaaService"
 
+# Metadata
 [params]
-  name = "Imran Shah"
-  about = "Engineer &nbsp;&bull;&nbsp; HipHop Head &nbsp;&bull;&nbsp; Life is just a moment in time"
-  copyright = "Untitled"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = ""
-  favicon = "favicon.ico"
+  author = "Imran Shah, CEO"
+  description = "Just a guy offering a service"
 
-[[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "https://twitter.com/TechaaService"
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Tech As A Service"
+  description = "We provide the tech so you can do what you do."
 
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/imranshah"
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
 
-[[params.social]]
-  medium = "Instagram"
-  icon = "instagram"
-  link = "https://www.instagram.com/imransshah/?hl=en"
+# Mission section
+[params.mission]
+  enable = true
 
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "https://github.com/imransshah"
+  [[params.mission.item]]
+    weight = 3
+    name = "Mission"
+    title = "Mission"
+    subtitle = "We're here to provide you with what you need to be the best."
+    description = "<p>Our mission simple: Help you fulfill yours.</a></p>"
 
-[[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "imran.shah@techaaservice.com"
+# Services section
+[params.services]
+  enable = true
+  #video = true
+  #vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Services"
+  description = "TechaaService provides various cloud technology and business services to serve your needs."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Management Strategy Consulting"
+    description = "Our team will work with you to establish OKRs and KPIs to help your organization flourish."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Web Development"
+    description = "Our team can help you produce the perfect website that tells the world exactly why we need you."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Cloud Development"
+    description = "Our team can create you the perfect, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from design to completion - and then we can hang around and make sure it stays working."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Technical Writing"
+    description = "Our team is experienced in creating technical documentation for various solutions, systems, and services."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Management and Corporate Strategy Consulting"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Web Development"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Cloud Development"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Technical Writing"
+    img = "images/img_4.jpg"
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "TechaaService is a small business owned by a couple of experienced IT Consultants that - you guessed it - provide Technology as a Service to you! "
+
+  [[params.team.item]]
+    name = "Imran Shah"
+    position = "Owner, President"
+    description = "After spending nearly a decade as a Systems Engineer contracting to the US Federal Government, it was time to start something new - this is that something new."
+    img = "images/imran.jpg"
+    linkedin = "https://www.linkedin.com/in/imransshah/"
+    facebook = "https://www.facebook.com/imranshah"
+    twitter = "https://twitter.com/shahlty/"
+    instagram = "https://www.instagram.com/imransshah/"
+    github = "https://github.com/imransshah"
+
+  [[params.team.item]]
+    name = "Rohma Sahibzada"
+    position = "Partner, Writer, Creative Genius"
+    description = "Her creativity cannot be boxed; unless you need a box..."
+    img = "images/rohma.jpg"
+    linkedin = "https://www.linkedin.com/in/rohma-sahibzada-05b4a4100/"
+    facebook = "https://www.facebook.com/rohma.sahibzada"
+    twitter = "https://twitter.com/mostardently568?lang=en"
+    instagram = "https://www.instagram.com/rohma123/"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Let us know what you need - we're here to service you."
+
+# Footer section
+#Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  twitter = "https://twitter.com/techaaservice"
+  

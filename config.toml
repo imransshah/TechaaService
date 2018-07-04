@@ -17,19 +17,19 @@ title = "TechaaService"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
+  #mission = "Our Mission"
   services = "Services"
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
-# Mission section
+#Mission section
 [params.mission]
   enable = false
 
   [[params.mission.item]]
-    weight = 3
+    weight = 1
     name = "Mission"
     title = "Mission"
     subtitle = "From ideation to execution, we're here to provide you with what you need to be the best."

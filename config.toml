@@ -13,7 +13,7 @@ title = "TechaaService"
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Tech As A Service"
-  description = "We provide the tech so you can do what you do."
+  description = "Our service is your solution"
 
 # Navigation section
 [params.nav]
@@ -26,17 +26,17 @@ title = "TechaaService"
 
 # Mission section
 [params.mission]
-  enable = true
+  enable = false
 
   [[params.mission.item]]
     weight = 3
     name = "Mission"
     title = "Mission"
-    subtitle = "We're here to provide you with what you need to be the best."
+    subtitle = "From ideation to execution, we're here to provide you with what you need to be the best."
     description = "<p>Our mission simple: Help you fulfill yours.</a></p>"
 
 # Services section
-[params.services]
+ [params.services]
   enable = true
   #video = true
   #vidlink = "https://vimeo.com/channels/staffpicks/93951774"
@@ -56,7 +56,7 @@ title = "TechaaService"
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Cloud Development"
-    description = "Our team can create you the perfect, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from design to completion - and then we can hang around and make sure it stays working."
+    description = "Our team can create you the perfect, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from ideation through execution - and then we can hang around and make sure it stays working too."
 
   [[params.services.item]]
     icon = "icon-eye"
@@ -66,21 +66,29 @@ title = "TechaaService"
 # Work section
 [params.work]
   enable = true
+  #video = true
+  #vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Services"
+  description = "TechaaService provides various cloud technology and business services to serve your needs."
 
   [[params.work.item]]
     title = "Management and Corporate Strategy Consulting"
+    subtitle = "Our team will work with you to establish OKRs and KPIs to help your organization flourish."
     img = "images/img_1.jpg"
 
   [[params.work.item]]
     title = "Web Development"
+    subtitle = "Our team can help you produce the perfect website that tells the world exactly why we need you."
     img = "images/img_2.jpg"
 
   [[params.work.item]]
     title = "Cloud Development"
+    subtitle = "Our team can create you the perfect, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from ideation through execution - and then we can hang around and make sure it stays working too."
     img = "images/img_3.jpg"
 
   [[params.work.item]]
     title = "Technical Writing"
+    subtitle = "Our team is experienced in creating technical documentation for various solutions, systems, and services."
     img = "images/img_4.jpg"
 
 
@@ -92,7 +100,7 @@ title = "TechaaService"
 
   [[params.team.item]]
     name = "Imran Shah"
-    position = "Owner, President"
+    position = "Owner, CEO"
     description = "After spending nearly a decade as a Systems Engineer contracting to the US Federal Government, it was time to start something new - this is that something new."
     img = "images/imran.jpg"
     linkedin = "https://www.linkedin.com/in/imransshah/"
@@ -103,8 +111,8 @@ title = "TechaaService"
 
   [[params.team.item]]
     name = "Rohma Sahibzada"
-    position = "Partner, Writer, Creative Genius"
-    description = "Her creativity cannot be boxed; unless you need a box..."
+    position = "Partner, Creative Genius"
+    description = "A writing specialist and experienced project coordinator, Rohma also comes from a federal contracting background.  But now, it is time to let her cretivity out of the box!"
     img = "images/rohma.jpg"
     linkedin = "https://www.linkedin.com/in/rohma-sahibzada-05b4a4100/"
     facebook = "https://www.facebook.com/rohma.sahibzada"

@@ -12,7 +12,7 @@ title = "TechaaService"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "Tech As A Service"
+  title = "Tech as a Service"
   description = "Our service is your solution"
 
 # Navigation section

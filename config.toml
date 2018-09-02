@@ -49,11 +49,6 @@ title = "TechaaService"
     description = "Our team will work with you to establish OKRs and KPIs to help your organization flourish."
 
   [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Web Development"
-    description = "Our team can help you create the perfect website that tells the world exactly why we need you."
-
-  [[params.services.item]]
     icon = "icon-pencil"
     title = "Cloud Development"
     description = "Our team can design and implement the high performing, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from ideation through execution - and then we can hang around and make sure it stays working too."
@@ -75,11 +70,6 @@ title = "TechaaService"
     title = "Management and Corporate Strategy Consulting"
     subtitle = "Our team will work with you to establish OKRs and KPIs to help your organization flourish."
     img = "images/img_1.jpg"
-
-  [[params.work.item]]
-    title = "Web Development"
-    subtitle = "Our team can help you produce the perfect website that tells the world exactly why we need you."
-    img = "images/img_2.jpg"
 
   [[params.work.item]]
     title = "Cloud Development"

@@ -47,6 +47,7 @@ title = "TechaaService"
     #icon = "icon-present"
     #title = "Management Strategy Consulting"
     #description = "Our team will work with you to establish OKRs and KPIs to help your organization flourish."
+    #img = "images/img_1.jpg"
 
   #[[params.services.item]]
     #icon = "icon-paper-plane"
@@ -54,20 +55,20 @@ title = "TechaaService"
     #description = "Our team can help you create the perfect website that tells the world exactly why we need you."
 
   #[[params.services.item]]
-    #icon = "icon-pencil"
+    #icon = "icon-paper-plane"
     #title = "Cloud Development"
     #description = "Our team can design and implement the high performing, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from ideation through execution - and then we can hang around and make sure it stays working too."
+    #img = "images/img_3.jpg"
 
   #[[params.services.item]]
-    #icon = "icon-eye"
+    #icon = "icon-pencil"
     #title = "Technical Writing"
     #description = "Our team is experienced in creating technical documentation for various solutions, systems, and services."
+    #img = "images/img_4.jpg"
 
 # Work section
 [params.work]
   enable = true
-  #video = true
-  #vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
   description = "TechaaService provides various cloud technology and business services to serve your needs."
 
@@ -77,20 +78,19 @@ title = "TechaaService"
     img = "images/img_1.jpg"
 
   [[params.work.item]]
-    title = "Web Development"
-    subtitle = "Our team can help you produce the perfect website that tells the world exactly why we need you."
-    img = "images/img_2.jpg"
+    title = "Technical Writing"
+    subtitle = "Our team is experienced in creating technical documentation for various solutions, systems, and services."
+    img = "images/img_4.jpg"
 
   [[params.work.item]]
     title = "Cloud Development"
     subtitle = "Our team can create you the perfect, cost-efficient, infrastructure you need to get yourself doing what you do.  We will be there from ideation through execution - and then we can hang around and make sure it stays working too."
     img = "images/img_3.jpg"
-
+ 
   [[params.work.item]]
-    title = "Technical Writing"
-    subtitle = "Our team is experienced in creating technical documentation for various solutions, systems, and services."
-    img = "images/img_4.jpg"
-
+    title = "Web Development"
+    subtitle = "Our team can help you produce the perfect website that tells the world exactly why we need you."
+    img = "images/img_2.jpg"
 
 # Team section
 [params.team]
